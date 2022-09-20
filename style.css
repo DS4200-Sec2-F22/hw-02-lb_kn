@@ -1,0 +1,23 @@
+body {
+	font-family: Arial;
+}
+
+h1 {
+	text-align: center;
+}
+#th {
+	background:blue;
+}
+h2 {
+	text-align: left;
+}
+.flex-container {
+  display: flex;
+}
+.flex-item {
+	align-self: center;
+}
+#actions{
+	text-align: left;
+	color: darkred;
+}
