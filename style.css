@@ -32,6 +32,7 @@ td {
   flex-wrap: nowrap;
   justify-content: space-evenly;
 	align-items: center;
+	align-content: center;
 }
 .flex-item {
 	flex: 50%;
@@ -44,4 +45,27 @@ img {
 #actions {
 	text-align: left;
 	color: darkred;
+}
+
+.the-circle {
+	fill: green;
+	opacity: 0.5;
+	align-self: center;
+}
+.the-circle:hover {
+	stroke: black;
+	stroke-width: 5;
+	stroke-dasharray: 10 5;
+}
+
+.rect {
+	width: 200;
+	height: 100;
+	fill: green;
+	border-style: solid;
+	border-width: thick;
+	align-self: center;
+}
+.rect:hover {
+	fill: red;
 }
