@@ -47,25 +47,30 @@ img {
 	color: darkred;
 }
 
-.the-circle {
+.circle {
 	fill: green;
 	opacity: 0.5;
 	align-self: center;
 }
-.the-circle:hover {
+.circle:hover {
 	stroke: black;
 	stroke-width: 5;
 	stroke-dasharray: 10 5;
 }
 
 .rect {
-	width: 200;
-	height: 100;
+	width: 150px;
+	height: 100px;
 	fill: green;
-	border-style: solid;
-	border-width: thick;
+	stroke: black;
+	stroke-width: 10;
 	align-self: center;
 }
 .rect:hover {
 	fill: red;
+}
+
+#acknowledgements {
+	text-align: center;
+  list-style-position: inside;
 }
