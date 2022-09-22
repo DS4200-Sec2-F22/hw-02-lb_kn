@@ -36,8 +36,10 @@ td {
 }
 .flex-item {
 	flex: 50%;
-	align-self: flex-start;
+	align-self: center;
+	text-align: center;
 }
+
 img {
 	max-width:100%;
 }
